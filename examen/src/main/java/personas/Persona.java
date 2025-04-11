@@ -1,10 +1,23 @@
 package personas;
 
+/**
+ * @author paz
+ */
+
 public class Persona {
     private String nombre;
     private String dni;
     private String telefono;
     private String direccion;
+
+    /**
+     * constructor de persona
+     *
+     * @param nombre
+     * @param dni
+     * @param telefono
+     * @param direccion
+     */
 
     public Persona(String nombre, String dni, String telefono, String direccion) {
         this.nombre = nombre;

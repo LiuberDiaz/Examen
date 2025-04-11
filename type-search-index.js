@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"personas","l":"Artista"},{"p":"personas","l":"Autor"},{"p":"recursos","l":"CD"},{"p":"recursos","l":"Libro"},{"p":"personas","l":"Persona"},{"p":"interfaces","l":"Prestable"},{"p":"recursos","l":"RecursoBibliografico"},{"p":"recursos","l":"Revista"}];updateSearchResults();

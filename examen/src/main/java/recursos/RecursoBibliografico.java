@@ -1,5 +1,9 @@
 package recursos;
 
+/**
+ * @author paz
+ */
+
 public class RecursoBibliografico {
     private String titulo;
     private int anoPublicacion;
@@ -34,6 +38,10 @@ public class RecursoBibliografico {
     public void setDisponibilidadPrestamo(boolean disponibilidadPrestamo) {
         this.disponibilidadPrestamo = disponibilidadPrestamo;
     }
+
+    /**
+     * Implementa el metodo mostrar informacion
+     */
 
     public void mostrarInformacion() {
         System.out.println("Titulo :" + getTitulo());

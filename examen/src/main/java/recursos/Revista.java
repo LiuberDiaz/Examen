@@ -2,6 +2,10 @@ package recursos;
 
 import interfaces.Prestable;
 
+/**
+ * @author paz
+ */
+
 public class Revista extends RecursoBibliografico implements Prestable {
     private int numero;
 
@@ -18,17 +22,29 @@ public class Revista extends RecursoBibliografico implements Prestable {
         this.numero = numero;
     }
 
+    /**
+     * implementa el metodo prestar
+     */
+
     @Override
     public void prestar() {
         // porque en el examen no lo hice
 
     }
 
+    /**
+     * implementa el metodo devolver
+     */
+
     @Override
     public void devolver() {
         // porque en el examen no lo hice
 
     }
+
+    /**
+     * implementa el metodo mostrar informacion
+     */
 
     @Override
     public void mostrarInformacion() {

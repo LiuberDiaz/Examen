@@ -3,6 +3,10 @@ package recursos;
 import interfaces.Prestable;
 import personas.Autor;
 
+/**
+ * @author paz
+ */
+
 public class Libro extends RecursoBibliografico implements Prestable {
     private Autor autor;
 
@@ -19,16 +23,28 @@ public class Libro extends RecursoBibliografico implements Prestable {
         this.autor = autor;
     }
 
+    /**
+     * implementa el metodo prestar
+     */
+
     @Override
     public void prestar() {
         //porque en el examen no lo hice
 
     }
 
+    /**
+     * implementa el metodo devolver
+     */
+
     @Override
     public void devolver() {
         // porque en el examen no lo hice
     }
+
+    /**
+     * implementa el metodo mostrar informacion
+     */
 
     @Override
     public void mostrarInformacion() {
